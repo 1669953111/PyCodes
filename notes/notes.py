@@ -24,5 +24,6 @@ def main():
             read_notes()
             continue
         else:
+            f.close()
             break
     exit()
